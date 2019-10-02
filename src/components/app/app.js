@@ -123,12 +123,6 @@ export default class App extends Component {
   onFilterChange = (filter) => {
     this.setState({filter});
   }
-
-  filterToAll = () => { this.setState({filter: 'all'}) };
-
-  filterToActive = () => { this.setState({filter: 'active'}) };
-
-  filterToDone = () => { this.setState({filter: 'done'}) };
   
   render() {
     
